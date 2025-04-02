@@ -1,5 +1,3 @@
-# ML_Empty_Housing_ES
-
 ## Predicting and Interpreting the Percentage of Empty Homes in Spanish Municipalities Using Machine Learning
 
 ---
