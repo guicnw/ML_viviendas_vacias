@@ -51,9 +51,13 @@ The most accurate model was Ridge Regression, while the most interpretable model
 
 ### Repository Structure
 
-ML_Empty_Housing_ES/ │ ├── README.md ├── src/ │ ├── data_sample/ # Sample dataset │ ├── img/ # Visualizations and figures │ ├── models/ # Final exported model (.joblib) │ ├── notebooks/ # Exploratory and development notebooks │ ├── results_notebook/ # Final notebook (reproducible version) │ └── utils/ # Custom functions and scripts
-
-
+``src/``
+1. ``src/data_sample``: data_sample, full merged dataset, original datasets.
+2. ``src/img``: Images used in the proyect.
+3. ``src/notebooks``: Test notebooks.
+4. ``src/results_notebook``: final notebook.
+5. ``src/models``: Models saved during project execution along with their feature selections.
+6. ``src/utils``: Function toolbox
 ---
 
 ### Project Presentation
@@ -69,6 +73,6 @@ The project includes a PowerPoint presentation prepared for a 7-minute video pit
 
 ### Author
  
-Author: [Your Name Here]  
+Author: Guillermo Castillón Novo  
 Year: 2025
 
