@@ -1,0 +1,9 @@
+Modelo,Feature Selection,Número de Features,Mejores Params,RMSE (CV),RMSE (TEST),R2 (TEST),MAE (TEST)
+Ridge,seleccion_rfe_80,80,{'modelo__alpha': 0.01},4.755,4.665,0.866,3.488
+LinearRegression,seleccion_rfe_80,80,{},4.749,4.684,0.865,3.521
+CatBoost,seleccion_rfecv,12,"{'depth': 6, 'iterations': 1000, 'learning_rate': 0.1}",5.339,5.106,0.84,3.754
+CatBoost,seleccion_rfe_80,80,"{'depth': 6, 'iterations': 1000, 'learning_rate': 0.1}",5.373,5.226,0.832,3.872
+LightGBM,seleccion_rfe_80,80,"{'learning_rate': 0.05, 'n_estimators': 1000, 'num_leaves': 15}",5.327,5.303,0.827,3.961
+LightGBM,seleccion_rfecv,12,"{'learning_rate': 0.1, 'n_estimators': 300, 'num_leaves': 15}",5.355,5.321,0.826,3.934
+Ridge,seleccion_rfecv,12,{'modelo__alpha': 0.01},5.488,5.372,0.822,4.144
+LinearRegression,seleccion_rfecv,12,{},5.49,5.379,0.822,4.15
