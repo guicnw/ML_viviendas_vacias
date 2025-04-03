@@ -36,7 +36,7 @@ The project is fully implemented in Python using libraries such as `pandas`, `sc
 Key steps of the process:
 
 1. Exploratory Data Analysis (EDA) and multicollinearity assessment.
-2. Categorical encoding (One-Hot and Target Encoding).
+2. Categorical encoding (One-Hot Encoding).
 3. Feature selection manually and using SelectFromModel, RFE, RFECV, and SFS.
 4. Model comparison: Ridge, Random Forest, XGBoost, CatBoost.
 5. Hyperparameter optimization via GridSearchCV and cross-validation.
